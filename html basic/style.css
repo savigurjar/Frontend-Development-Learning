@@ -1,0 +1,24 @@
+#image
+{
+    display: block;
+    max-width: 100%;
+}
+
+#img-div
+{
+    text-align: center;
+}
+#title
+{
+    text-align: center;
+    color: rgb(3, 95, 95);
+}
+#img-caption
+{
+    color: rgb(2, 85, 57);
+
+}
+#tribute-info
+{
+    color: rgb(1, 63, 42);
+}
