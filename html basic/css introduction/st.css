@@ -1,0 +1,173 @@
+/*div{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 2px solid black;
+    font-weight : 32px;
+}
+aside{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(177, 104, 16);
+    border-radius: 2px solid black;
+} 
+
+/* flexbox */
+/*body
+{
+    background-color:pink;
+}
+.new{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+  
+}
+.new div
+{
+background-color: aqua;
+flex-basis: 300px; /*box will go in direction larger {it will become width of the element in case of flex-direction row */
+/*height: 50px;
+width: 200px;
+border: 1px solid red;
+margin: 10px; *
+}
+.first
+{
+    flex-shrink :0;
+    /* flex-shrink :inherit; */
+/* flex-shrink: calc(); how much particular element should shrink 
+}*/
+
+
+/* center a div */
+/*
+*
+{
+    margin: 0;;
+}
+#parent
+{
+    display: flex;
+    background-color: brown;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 100px;
+    height: 100px; */
+/*}
+.child{
+    margin: 5px;
+    /* background-color: yellowgreen; */
+/*width: 170px;
+    height: 200px;
+    background-image: url(v.jpeg);
+}*/
+
+/* comman layouts with flexbox */
+/* * {
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav, footer{
+    flex-shrink: 0;
+}
+section
+{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+nav ul li { 
+    padding: 10px;
+    margin: 2px;
+    list-style: none;
+    /* background-color: brown; */
+/*}
+
+#logo
+{
+    width: 80vw;
+    height: 200px;
+    background-color: darkcyan;
+}
+.layer
+{
+    background-color: rgb(163, 152, 152);
+    width: 100%;
+    padding: 10px 0; /*top right bottom left*/
+   /* border-bottom: 2px solid grey;
+} */
+
+/* css position absolute */
+* {
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav, footer{
+    flex-shrink: 0;
+}
+section
+{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section span{
+    background: blue;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    /* position: fixed; */
+    /* position: absolute; */
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+nav ul li { 
+    padding: 10px;
+    margin: 2px;
+    list-style: none;
+    /* background-color: brown; */
+}
+
+#logo
+{
+    width: 80vw;
+    height: 200px;
+    background-color: darkcyan;
+}
+.layer
+{
+    background-color: rgb(163, 152, 152);
+    width: 100%;
+    padding: 10px 0; /*top right bottom left*/
+    border-bottom: 2px solid grey;
+}
